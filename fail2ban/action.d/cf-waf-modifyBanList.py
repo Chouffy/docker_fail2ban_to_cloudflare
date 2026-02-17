@@ -49,10 +49,6 @@ if __name__ == "__main__":
         pass
 
     action = sys.argv[2]
-    listId = ''
-    accountId = ''
-    email = ''
-    apiKey = ''
     apiEndpoint = f'https://api.cloudflare.com/client/v4/accounts/<user id>/configurations/lists/<list id>'
 
     headers = {
